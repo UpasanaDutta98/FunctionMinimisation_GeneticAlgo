@@ -147,9 +147,6 @@ class Genetic(object):
 			children.append(np.asarray([x*int(child, 2)]))
 
 
-			# Arijit's code - 
-			# children.append(np.asarray([signs[0]*int(g1, 2)]))#,
-                                        #signs[1]*int(g2, 2)]))
 		self.population = children
 
 	def run(self):
